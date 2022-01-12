@@ -61,10 +61,8 @@ $ ./build.sh -g -c
 ### 3. Training with Q_learning ###
 #### __Catkin:__ ####
 ```shell
-cd ros-melodic-nvidia-docker/bin
-./dockerRun.sh -n -c catkin rasMake.sh rl
- -n: use this option for nvidia-docker
- -c: use this option for cache
+$ cd ros-melodic-nvidia-docker/bin
+$ ./auto_start_catkin.sh
 ```
 
 #### __Training:__ #### 
